@@ -1,0 +1,32 @@
+.fp__404 {
+  height: calc(100vh - var(--heightHeader));
+  display: flex;
+  align-items: center;
+}
+
+.fp__404_text {
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.fp__404_text img {
+  margin-top: calc(0px - var(--heightHeader));
+  height: 270px !important;
+  width: 460px !important;
+  border-radius: 10px;
+}
+
+.fp__404_text h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.fp__404_text p {
+  margin: 10px 0px 20px 0px;
+  font-size: 18px;
+  text-align: center;
+}

@@ -1,0 +1,120 @@
+.chat-box .chat-content {
+  background-color: #f9f9f9 !important;
+  padding: 15px !important;
+}
+
+.chat-box .chat-content .chat-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.chat-box .chat-content .chat-item.chat-right {
+  align-items: start;
+  flex-direction: row-reverse;
+  margin-right: -20px;
+  padding-right: 20px;
+}
+
+.chat-box .chat-content .chat-item.chat-right .chat-details {
+  margin-left: 0;
+  text-align: right;
+}
+
+.chat-box .chat-content .chat-item.chat-right .chat-details .chat-text {
+  text-align: left;
+  background-color: #6777ef;
+  color: #fff;
+}
+
+.chat-box .chat-content .chat-item>img {
+  float: left;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.chat-box .chat-content .chat-item .chat-details {
+  margin: 0 20px;
+}
+
+.chat-box .chat-content .chat-item .chat-details .chat-text {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: auto;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.chat-box .chat-content .chat-item .chat-details .chat-text img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.chat-box .chat-content .chat-item.chat-typing .chat-details .chat-text {
+  background-image: url("../img/typing.svg");
+  height: 40px;
+  width: 60px;
+  background-position: center;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+.chat-box .chat-content .chat-item .chat-details .chat-time {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.chat-box .chat-form {
+  padding: 0;
+  position: relative;
+}
+
+.chat-box .chat-form .form-control {
+  border: none;
+  padding: 15px;
+  height: 50px;
+  padding-right: 70px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: none;
+  outline: none;
+}
+
+.chat-box .chat-form .btn {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+}
+
+.chat-box .chat-form .btn i {
+  margin-left: 0;
+}
+
+.wrapper-content .card-body.disable-scroll {
+  overflow: hidden;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  scrollbar-width: thin !important;
+  background: var(--colorWhite);
+  height: 4px;
+  width: 2px;
+  border-radius: 4px;
+  margin-left: 50px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: var(--paraColor);
+  border-radius: 8px;
+}
